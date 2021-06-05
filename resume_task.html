@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>vamshi Resume</title>
+    <style type="text/css">
+        header {
+            background-color: #b6b6ec;
+            block-size: 100px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        body {
+            font-family: Geneva, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: normal;
+            color: #000000;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5em;
+        }
+
+        section,
+        article {
+            display: block;
+        }
+
+        section {
+            margin: 20px 0 10px;
+            padding: 0;
+        }
+
+        p {
+            margin-top: 0;
+            padding: 0;
+        }
+
+        ul,
+        ol {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 5px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            font-style: italic;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        a,
+        a:link,
+        a:visited {
+            border: medium none;
+            text-decoration: none;
+            color: #009;
+            cursor: pointer;
+        }
+
+        #resumecontainer {
+            background-color: #F6F6F6;
+            text-align: left;
+            padding: 20px;
+            margin: 20px auto;
+            min-width: 300px;
+            max-width: 600px;
+            position: relative;
+        }
+
+        header p {
+            padding-top: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin: auto;
+            text-justify: auto;
+        }
+
+        .skills {
+            margin: 10px 10px;
+        }
+
+        .project {
+            margin: 10px 0 20px 10px;
+        }
+
+        section>p,
+        section>article {
+            margin: 5px 0 0 10px;
+        }
+
+        #skills_section {
+            position: relative;
+            z-index: 0;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #03F;
+        }
+
+        li {
+            margin-left: 5px;
+            list-style-position: inside;
+            list-style-type: circle;
+            padding-left: 0
+        }
+
+        ol>li {
+            list-style-position: inside;
+            list-style-type: decimal;
+            margin-bottom: 10px;
+            margin-left: 0;
+        }
+
+        .indent {
+            margin-left: 20px;
+        }
+
+        @media only screen and (max-device-width: 480px) {
+            body {
+                font-size: 18px;
+            }
+
+            #resumecontainer {
+                padding: 20px;
+                margin: 20px;
+                max-width: 1000px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="resumecontainer">
+        <header>
+            <h1>Vamshi krishna</h1>
+            <p><a href="https://github.com/vamshirenikuntla/">https://github.com/vamshirenikuntla</a></p>
+            <p>
+                <indent>Email:</indent><strong>vamshirenikuntla7@gmail.com</strong></a>
+            </p>
+        </header>
+
+        <section>
+            <h2>Objective</h2>
+            <p>Seeking challenging opportunities in <em><strong>Software development/architecture</strong></p>
+        </section>
+
+        <section>
+            <h2>Summary</h2>
+            <p>Having good understanding of software development and knowlwdge on different skill set like Html, css,
+                python and
+                datascience libraries like numpy,matplotlib,pandas,scikit-learn</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <article class="skills">
+                <strong>Advanced</strong>
+                <p>Numpy,
+                    pandas,
+                    github</p>
+            </article>
+
+            <article class="skills">
+                <strong>Competent</strong>
+                <p>Python,
+                    Html,
+                    Css
+                </p>
+            </article>
+
+            <article class="skills"><strong>Moderate Exposure</strong>
+                <p>javascript,
+                    React,
+                    flask,
+                    Deployment: Heroku, Pythonanywhere.com, github pages
+                </p>
+            </article>
+        </section>
+
+        <section id="skills_section">
+            <h2>Project Portfolio</h2>
+
+            <article class="project">
+                <a class="proj_link external" href="https://vamshicpp.herokuapp.com/"><strong>Car Price
+                        Prediction(ML)</strong></a>
+                <strong class="indent">Machine learning Project</strong>
+                <ul>
+                    <li>Web application using flask</li>
+                    <li>End to end machine learning project</li>
+                    <li>Used historical data to predict</li>
+                    <li>Html, css, javascript, flask, Python, Deployment: Heroku, Github pages</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <a class="proj_link external" href="http://vamshirenikuntla.pythonanywhere.com/"><strong>Portfolio
+                        project using flask</strong></a>
+                <strong class="indent">web development</strong>
+                <ul>
+                    <li>End to end web development</li>
+                    <li>FLASK, POSTGRESQL, HTML, CSS, Deployment: pythonanywhere.com</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p><strong>St.Mary's Group of Institutions</strong>, B.TECH</p>
+            <p><strong>MBU college</strong>, DIPLOMA</p>
+            <p><strong>Saint vincent High school</strong>, SSC</p>
+        </section>
+        <section style="margin-top:20px;"></section>
+        <section>
+            <h2>Intrests</h2>
+            <article class="Intrests">
+                <strong>Listining to podcast</strong>
+            </article>
+            <article class="Intrests">
+                <strong>Reading Articles</strong>
+            </article>
+            <article class="Intrests">
+                <strong>Reading Books</strong>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>
